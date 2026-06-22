@@ -1,0 +1,168 @@
+"I'm Aarthi Thiyagarajan, a QA professional with over 4 years of experience across manual and automation testing. At Infosys, I built Selenium regression suites covering 85% of the application and led BDD collaboration between devs and BAs. More recently, I've been freelancing in Barcelona — architecting Playwright/TypeScript frameworks for e-commerce clients, cutting release validation from 2 days to 3 hours. I'm passionate about UI quality and user experience, which is exactly what excites me about M47's Media App role — ensuring 40 million users have a seamless streaming experience. I'm based here in Barcelona, available full-time, and very ready to contribute from day one."
+
+Quality & testing
+"Tell me about a time you caught a critical bug before it reached production."
+Situation
+At Infosys, I was assigned to a healthcare e-commerce project during UAT, just before a major release.
+Task
+My responsibility was validating 60+ REST API endpoints, including payment and order flows critical to the release.
+Action
+I systematically tested all POST/PUT endpoints with edge-case payloads using Postman and cross-verified results against MySQL records. I flagged 12 integration defects where the API responses didn't match the DB state — issues that would have corrupted user orders.
+Result
+All 12 defects were resolved before sign-off. We achieved zero critical defect escapes to production across 4 consecutive releases.
+Tip for M47
+Connect this to their media app context: "At M47, I'd apply the same rigour to playback and UI flows — streaming apps have equally critical user-facing defects like buffering bugs or broken player controls."
+
+quality & testing
+"Describe a time you had to design a test plan or test strategy from scratch."
+Situation
+When I joined a new freelance e-commerce client in Barcelona, there was no existing test coverage — everything was manual and ad hoc.
+Task
+I needed to design a full QA strategy and automate regression from zero within a tight timeline.
+Action
+I first mapped all 40+ user flows by priority (checkout, search, account). I built a Page Object Model framework in Playwright/TypeScript, integrated it with GitHub Actions for CI runs on every PR, and produced structured Jira reports for the client after each cycle.
+Result
+Manual regression effort dropped by ~60% and release cycles shortened significantly — from 2 days to 3 hours for validation.
+Tip for M47
+Emphasise the documentation aspect: "I also wrote detailed test plans and reports — which I understand is a core expectation in this role."
+
+collaboration
+"Give me an example of working closely with developers or product teams."
+Situation
+At Infosys, there was a recurring issue: developers were building features that didn't match what the BAs had specified, causing late-stage rework.
+Task
+I was tasked with leading BDD test scenario creation to close the gap between requirements and implementation.
+Action
+I ran collaborative sessions with BAs and developers using Cucumber/Gherkin to write acceptance criteria as living documentation that all three parties agreed on before any code was written.
+Result
+Requirements-related defect rework dropped by 25%, and sprint velocity improved because less time was spent on misunderstood features.
+Tip for M47
+Great answer to show you're not just a "lone tester" — you bridge dev and product. Mention you're comfortable in Agile standups and sprint reviews.
+
+problem solving
+"Tell me about a time you had to investigate a complex or hard-to-reproduce bug."
+Situation
+During cross-platform testing at Infosys, we had intermittent UI defects appearing only on specific Android versions — not reproducible in the dev environment.
+Task
+I needed to isolate the root cause and document it clearly enough for developers to fix it without having the device in hand.
+Action
+I executed tests on real devices across Android and iOS, used logs to correlate defect patterns with specific OS versions, and wrote detailed bug reports with exact steps, screenshots, and environment specs.
+Result
+We identified 15 platform-specific UI defects, all fixed before release, improving cross-device consistency across 2 app releases.
+Tip for M47
+This directly maps to their need — streaming apps have device/browser-specific playback bugs. Mention your comfort with debugging tools and that you're keen to learn Charles Proxy if not yet experienced with it.
+
+problem solving
+"Describe a time you had to work under pressure or with a tight deadline."
+Situation
+A freelance client needed a release validated urgently — the previous process took 2 full days and the window was only a few hours.
+Task
+I had to find a way to compress full regression validation without compromising coverage on critical paths.
+Action
+I prioritised high-risk flows (checkout, login, search), ran automated Playwright suites via GitHub Actions in parallel, and triaged results in real time — only escalating to manual checks where automation flagged anomalies.
+Result
+Release validation time went from 2 days → 3 hours, the release went out on time, and zero critical issues were found post-deployment.
+
+growth mindset
+"Tell me about something new you've learned recently and how you applied it."
+Situation
+After relocating to Barcelona, I wanted to stay technically current and relevant to the EU market rather than relying solely on my Infosys experience.
+Task
+I decided to independently learn Playwright/TypeScript — a modern framework increasingly preferred over Selenium for web apps.
+Action
+I self-studied the framework, built a real POM-based test suite for personal projects, then pitched it to freelance clients and successfully onboarded two EU e-commerce businesses.
+Result
+I now have hands-on production Playwright experience with real client outcomes, and I'm actively growing my skills to stay ahead of industry tooling shifts.
+Tip for M47
+You can also mention: "I noticed Charles Proxy is listed in your requirements — I'm familiar with network traffic debugging and I'm actively learning it to be fully prepared for this role."
+
+collaboration
+"Why do you want to work at M47 specifically?"
+Answer
+Three things genuinely attract me. First, the scale — 40 million users is a real quality challenge; every UI defect has meaningful user impact. Second, the domain — streaming app quality is about both technical correctness and human experience, which is where my passion lies. Third, Barcelona onsite — I'm already based here with a valid NIE, I love the international culture M47 describes, and I want to build my career in this city long-term.
+
+A few extra tips before your call tomorrow:
+On Charles Proxy — it's listed as a requirement but you don't mention it on your resume. Be upfront: "I have strong experience with API debugging via Postman and network traffic analysis; I'm actively getting hands-on with Charles Proxy and am confident I'll be up to speed quickly." Honesty + a learning plan is always better than bluffing.
+On "manual QA" framing — this role is primarily manual. Don't let your automation strengths overshadow this. Lead with: "I believe automation and manual testing are complementary — automation handles regression at scale, but manual testing is irreplaceable for usability, edge cases, and exploratory work, especially in UI-heavy apps like streaming platforms."
+On the onsite requirement — they explicitly listed it, so proactively confirm: "I'm fully aware the role is onsite in Barcelona, and that works perfectly for me — I'm already based here."
+One question to ask them: "Can you tell me more about how the QA team collaborates with the product and dev team on the Media App project?" — shows strategic thinking.
+
+
+
+
+GEMINI
+
+
+
+
+
+
+
+🧠 STAR Method Behavioral Questions & Strategies
+HR will be looking for competencies like problem-solving, collaboration, adaptability, and attention to detail. Here is how to answer them using your specific background:
+
+1. The "Attention to Detail / UI Quality" Question
+Question: "Can you tell me about a time when you found a critical UI or usability defect that automated tests missed, or would have missed?"
+
+Strategy: This addresses M47's requirement for manual testing to uncover edge cases and usability issues.
+
+STAR Framing:
+
+Situation: At Infosys (or during a freelance project), you were preparing a release for a major e-commerce or user-facing app.
+
+Task: The automated regression scripts passed perfectly, but you needed to conduct manual exploratory/compatibility testing across different real devices before final UAT sign-off.
+
+Action: You systematically tested the app across different viewports/OS versions. You noticed that on specific mobile devices, a critical UI element (like a checkout button or media player asset) misaligned or became unclickable when the screen orientation changed, or under specific network conditions.
+
+Result: You logged the platform-specific UI defect in Jira, worked with the developers to fix it, and achieved a release with zero critical defect escapes to production.
+
+2. The "Adapting to New Tools / Charles Proxy" Question
+Question: "The role mentions using debugging tools like Charles Proxy to inspect network traffic and server changes. Have you used similar tools, or how do you approach learning a new debugging tool under tight deadlines?"
+
+Strategy: Your resume explicitly lists Postman and API validation, but doesn't explicitly say "Charles Proxy." You need to show your API/network conceptual strength and agility to learn.
+
+STAR Framing:
+
+Situation: You regularly validate backend data integrity and API endpoints (testing GET, POST, JSON payloads).
+
+Task: You needed to isolate whether a specific UI bug was a front-end rendering issue or a back-end server/payload issue.
+
+Action: Explain how you use Postman to isolate API behavior, and pivot to how you approach network proxies: "While my core toolkit has been Postman for API validation and Chrome DevTools for network inspection, I understand Charles Proxy is essential for capturing mobile app traffic and mocking server responses. When mastering new tools, I map them to my existing knowledge of HTTP methods, status codes, and JSON payloads..."
+
+Result: Emphasize that your strong foundation in RESTful APIs means you can become proficient in Charles Proxy within your first week.
+
+3. The "Collaboration / BDD" Question
+Question: "We work closely with clients and cross-functional teams. Can you give an example of a time you had to collaborate with developers or Business Analysts to resolve a misunderstanding about project requirements?"
+
+Strategy: Highlights your Agile/Scrum and Cucumber BDD experience from Infosys.
+
+STAR Framing:
+
+Situation: During a sprint planning or grooming session, the acceptance criteria for a new feature were ambiguous.
+
+Task: You needed to ensure the testing coverage would be accurate before development finished to prevent late-stage bugs.
+
+Action: You utilized a Behavior-Driven Development (BDD) approach. You organized a quick sync with the BA and developer using Cucumber/Gherkin syntax to map out user journeys and edge cases clearly.
+
+Result: This collaborative effort aligned everyone's expectations early, which ultimately reduced requirements-related defect rework by 25%.
+
+4. The "Handling Pressure / Regression Testing" Question
+Question: "In a fast-paced streaming application environment, release cycles are tight. Tell me about a time you had to ensure high testing coverage under a strict deadline."
+
+Strategy: Showcases your efficiency and understanding of release qualification.
+
+STAR Framing:
+
+Situation: A major server change or hotfix needed to be deployed quickly to production, requiring a rapid regression and verification process.
+
+Task: You had to qualify the release without compromising on UI and functional quality standards.
+
+Action: You prioritized the test execution matrix—running your high-priority automated regression suite for core functionalities while simultaneously performing targeted manual testing on the specific UI components affected by the server change.
+
+Result: You successfully verified the bug fixes, ensured critical test coverage, and delivered the release validation on time with zero production escapes.
+
+💡 Quick Tips for Tomorrow
+Emphasize "Quality Mindset": Because your resume says "Automation Engineer," the HR recruiter might worry you only want to write code. Explicitly mention that you view automation as a tool to free up time so you can focus on deep UI/UX testing and edge cases.
+
+Be enthusiastic about the product: Mentioning that you are excited to work on an app serving 40 million users shows you understand the scale and responsibility of the role.
+
